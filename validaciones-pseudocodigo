@@ -1,0 +1,126 @@
+1- Felicidad o hambre(hambre)
+1.- Cuando tengo hambre estoy triste, si “hambre” es un valor booleano (true o false), 
+tienes que descifrar si estoy feliz o tengo hambre
+
+Inicio
+    Leer hambre //"true or false" "Tienes hambre" (si o no)
+    SI  hambre === "SI" ENTONCES
+		ESCRIBE “Tengo hambre”
+	SINO
+		ESCRIBE “Estoy feliz”
+	FIN-SI
+Fin
+
+
+2.- Nivel de videojuegos(nivel)
+2.- Soy en personaje en un videojuego, y dependiendo del nivel tengo cierto título:
+ Cuando empiezo soy “Aprendiz” si llego al nivel 10 evoluciono a “Acróbata” y si paso del nivel 20 me hago un “ninja” 
+ ¿Que soy actualmente?
+
+ Inicio
+    Leer nivel //"numero"
+    Si nivel <=9 
+        ESCRIBE "Soy Aprendiz"
+    SINO
+        Si nivel 10-19 
+            ESCRIBE "Soy Acróbata"
+        SINO
+            Si nivel >=20 
+                ESCRIBE "Soy un ninja" 
+            FIN-SI
+        FIN-SI
+    FIN-SI
+FIN
+
+
+3. -Acceso al refrigerador(nombre, constraseña)
+3.- Vivo con varios roomies y siempre me roban la comida, entonces le puse una contraseña al refrigerador.
+ Tienes que hacer un programa que valide si mi nombre es el correcto y si mi contraseña también.
+
+Inicio
+    Leer nombre
+    Leer contraseña
+    Si nombre ==="quique" ENTONCES 
+    Si contraseña === "123" ENTONCES
+    ESCRIBE "Acceso permitido al refrigerador"
+    SINO
+    ESCRIBE "Contraseña incorrecta"
+    FIN-SI
+    SINO
+    Escribre "Error"
+    FIN-SI
+Fin
+
+4.- Promedio(examen1, examen2, examen,3)
+4.- Tengo 3 examenes este semestre y mi papá me dijo que me daría un premio si tengo un promedio final de 8.5 o más,
+ pero si repruebo me va a castigar.  ¿Cual fue mi destino?
+
+Inicio   
+    Leer examen1
+    Leer examen2
+    Leer examen3
+        Si (examen1 + examen2 + examen3 / 3) >= 8.5
+        ESCRIBE "Tengo premio"
+    SINO
+            Si (examen1 + examen2 + examen3 / 3) <= 5.9
+            ESCRIBE "Estoy castigado"
+    SINO
+                Si (examen1 + examen2 + examen3 / 3) = 6.0-8.4
+                ESCRIBE "Ni castigo ni premio"
+        FIN-SI
+            FIN-SI
+                FIN-SI
+Fin
+
+
+5.- Horario(Día)
+5.- Estoy inscrito a muchas clases porque me gusta aprender: Los lunes y miércoles voy a Historia,
+ los martes a natacion, los jueves a esgrima y los demás días descanso. Dime a qué clase voy si te digo un día.
+
+ Inicio
+    leer dia 
+        SI  dia === lunes 
+        ESCRIBE "HISTORIA"
+    SINO
+            SI dia === martes
+            ESCRIBE "NATACIÓN
+    SINO
+                SI dia === miercoles
+                ESCRIBE "HISTORIA
+    SINO
+                    SI dia === jueves
+                    ESCRIBE "ESGRIMA"
+    SINO
+                        SI dia === viernes, sabado, domingo
+                        ESCRIBE "DESCANSO"
+        FIN-SI
+            FIN-SI
+                FIN-SI
+                    FIN-SI
+                        FIN-SI
+FIN
+                    
+
+
+
+6.- Apuesta(shot1,shot2,shot3)
+6.- Estoy jugando un juego de dados, gano si saco el mismo número en dos de los tres dados. Descubre si gané o no
+
+Inicio
+    Leer shot1
+    Leer shot2
+    Leer shot3
+    SI shot1 === shot2 ENTONCES
+        ESCRIBE "Ganaste"
+    SINO
+        SI shot2 === shot3 ENTONCES
+        ESCRIBE "Ganaste"
+    SINO
+            SI shot1 === shot3 ENTONCES
+            ESCRIBE "Ganaste"
+    SINO
+            ESCRIBE "Perdiste"
+    FIN-SI
+        FIN-SI
+            FIN-SI
+FIN    

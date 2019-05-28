@@ -1,0 +1,31 @@
+Logica de nuestro programa
+Joel tiene que ahorrar $10, 000 pesos para ir al Google IO,
+ para este evento faltan 30 días. Crea un programa que nos diga
+  si podrá ahorrar el dinero suficiente si gana N cantidad de pesos por día,
+   en caso de que si le alcance escribe el mensaje “Ya la armaste”, en caso de que no “Sigue participando”
+
+INICIO
+	LEER pesosPorDia
+	pesosTotalesAAhorrar = 10000
+	cantidadDias = 30
+	cantidadQuePuedoAhorrar = 30 * pesosPorDia
+	???? Ahora necesitamos saber si el dinero alcanza
+FIN
+INICIO
+	LEER pesosPorDia
+	pesosTotalesAAhorrar = 10000
+	cantidadDias = 30
+	cantidadQuePuedoAhorrar = 30 * pesosPorDia
+	???? Ahora necesitamos saber si el dinero alcanza
+FIN
+INICIO
+	LEER pesosPorDia
+	pesosTotalesAAhorrar = 10000
+	cantidadDias = 30
+	cantidadQuePuedoAhorrar = 30 * pesosPorDia
+	alcanzanLosAhorros = cantidadQuePuedoAhorrar >= pesosTotalesAAhorrar
+	SI alcanzanLosAhorros ENTONCES
+		ESCRIBE “Ya la armaste”
+	SINO
+		ESCRIBE “Sigue participando”
+	FIN-SI
